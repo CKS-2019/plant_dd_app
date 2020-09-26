@@ -21,7 +21,7 @@ if uploaded_file is not None:
     st.image(image, caption='Uploaded.', use_column_width=True)
     st.write("")
     st.write("Identifying......")
-    label = pred(image, '/model/crop1.h5')
+    label = pred(image, '../model/crop1.h5')
     Classes = ["Apple___Apple_scab : Apple scab is a common disease of plants in the rose family (Rosaceae) that is caused by the ascomycete fungus Venturia inaequalis.","Apple___Black_rot : Black rot is a disease of apples that infects fruit, leaves and bark caused by the fungus Botryosphaeria obtusa.",
                "Apple___Cedar_apple_rust : Cedar apple rust (Gymnosporangium juniperi-virginianae) is a fungal disease that requires juniper plants to complete its complicated two year life-cycle.",
               "Apple___healthy","Blueberry___healthy","Cherry_(including_sour)___Powdery_mildew : Powdery mildew of sweet and sour cherry is caused by Podosphaera clandestina, an obligate biotrophic fungus.",
