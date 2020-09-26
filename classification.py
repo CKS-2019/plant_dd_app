@@ -5,7 +5,7 @@ Created on Thu Sep 24 22:29:25 2020
 @author: CHINMAY
 """
 
-import keras
+from tensorflow import keras
 from PIL import Image, ImageOps
 import numpy as np
 
