@@ -3,3 +3,4 @@ streamlit==0.52.1
 pillow
 keras
 tensorflow
+h5py
